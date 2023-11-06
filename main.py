@@ -1,1 +1,11 @@
-print("work")
+print("wk")
+print("wk")
+print("wk")
+print("wk")
+print("wk")
+
+print("wk")
+print("wk")
+print("wk")
+print("wk")
+print("wk")
