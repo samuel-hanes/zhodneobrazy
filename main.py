@@ -30,7 +30,8 @@ def nangler(n,stx,sty,a,typ):
             turtle.lt(360/n)
         x=stx-stxs
         y=sty-stys
-        s=math.atan2(stx-stxs,sty-stys)*180/math.pi
+        s=math.atan2(stx-stxs,sty-stys)*180/math.pi #uhol vypocet od x osi
+
         if s>0:
             ang=360-s
         else:ang=s
@@ -39,6 +40,7 @@ def nangler(n,stx,sty,a,typ):
         
         turtle.lt(ang)
         cline(math.sqrt((stx-stxs)**2+(sty-stys)**2))
+        turtle.goto(stx,sty)
         print(ang)
         
 
